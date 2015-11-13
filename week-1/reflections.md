@@ -35,3 +35,31 @@ rm- remove a file
 help- display info about bash commands
 
 ### 1.4 Forking and Cloning Reflection
+
+Instructions for creating a repository:
+
+1) Navigate to guthub.com, create a profile and login.
+
+2) In the upper right hand corner of your Github page click the "+" sign, and select new repository (or repo)
+
+3) Name your repository (or project), select Public or Private along with any licenses you may desire and select "Create Repository". DONE
+
+Instructions for cloning a repository:
+
+1) On the page for your repository in the lower left hand corner there is a URL in a box, copy that URL.
+
+2) On your computer, using command line, enter into the folder you want to put your project in, and enter the command "git clone (and paste that URL here)". DONE.
+
+When we clone a repository, we are making a copy on our local machine form which to work on, but let's say we wanted to work on another person's project (or repo), then we would use the fork command. A fork creates a personal copy of someone else's project for us to work with.
+
+Instructions for forking a repository:
+
+1) Go to the Github page of the repository you are wanting to contribute towards.
+
+2) In the upper right hand corner you'll see the work Fork, click on fork and when prompted select your username as the account to fork the repository to, and after a few seconds you will see a copy of that repository with your username in front of it, this copy is your forked copy to work with. DONE.
+
+
+
+STRUGGLES:
+
+My only main struggle was the fact that the curriculum doesn't explicitly state or mention creating a folder on your personal machine to clone repo's to. I realize it's an obvious step, but for those of us trying to follow each step religiously, the omission of that basic step seems like a glaring oversight.
