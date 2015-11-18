@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 </html>
   <head>
-    <title> Rajal's Blog </title>
+    <title> Rajal's Blog O FUN
+    <a href = "/week-2/imgs/Sitemap.html"></a>
+    </title>
   </head>
 <body>
-![SITE MAP](~/Desktop/DEVB/phase-0/week-2/imgs/Sitemap.png)
 
 
 <h3> What are the 6 Phases of Web Design?</h3>
