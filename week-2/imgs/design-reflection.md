@@ -6,7 +6,7 @@
     </title>
   </head>
 <body>
-    <img src="Site-Map.png" alt="Site Map">
+    <img src="/imgs/Site-Map.png" alt="Site Map">
 <h3> What are the 6 Phases of Web Design?</h3>
 <p>
       1.Information Gathering
