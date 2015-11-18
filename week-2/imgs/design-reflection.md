@@ -6,7 +6,7 @@
     </title>
   </head>
 <body>
-  ![Site Map](/Site-Map.png)
+  ![Site Map](/week-2/imgs/Site-Map.png)
     <img src="/Site-Map.png" alt="Site Map">
 <h3> What are the 6 Phases of Web Design?</h3>
 <p>
