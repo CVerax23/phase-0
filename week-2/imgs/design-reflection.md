@@ -2,7 +2,7 @@
 </html>
   <head>
     <title> Rajal's Blog O FUN
-    <a href = "/week-2/imgs/design-reflection.md">Site Map</a>
+    <a href = "/imgs/Site-Map.png">Site Map</a>
     </title>
   </head>
 <body>
