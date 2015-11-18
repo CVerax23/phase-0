@@ -2,7 +2,7 @@
 </html>
   <head>
     <title> Rajal's Blog O FUN
-    <img src="Site-Map.png">Site Map</a>
+    <img src="Site-Map.png" alt="Site Map">
     </title>
   </head>
 <body>
