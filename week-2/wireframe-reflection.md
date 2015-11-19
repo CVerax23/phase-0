@@ -1,6 +1,6 @@
-![Index Wireframe](/imgs/wireframe-index.png "Index")
+![Blog Wireframe](https://github.com/CVerax23/phase-0/blob/master/week-2/imgs/wireframe-blog-index.png)
 
-![Blog Wireframe](/imgs/wireframe-index.png "Blog")
+![Index Wireframe](https://github.com/CVerax23/phase-0/blob/master/week-2/imgs/wireframe-index.png)
 
 
 What is a wireframe?
