@@ -6,8 +6,7 @@
     </title>
   </head>
 <body>
-  ![Site Map](/week-2/imgs/Site-Map.png)
-    <img src="/Site-Map.png" alt="Site Map">
+ <p>![Site Map](https://github.com/CVerax23/phase-0/blob/master/week-2/imgs/Site-map.png)</p>
 <h3> What are the 6 Phases of Web Design?</h3>
 <p>
       1.Information Gathering
