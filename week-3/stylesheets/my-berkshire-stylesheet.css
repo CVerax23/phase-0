@@ -23,3 +23,29 @@ h1 {
   position: center;
 }
 
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+Each page must include a reference to the external style sheet file inside the <link> element. The <link> element goes inside the <head>. An external style sheet can be written in any text editor. The file should not contain any html tags. The style sheet file must be saved with a .css extension.
+
+
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+Using percentages instead of px values
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+color
+background-color
+font-size
+font-style
+etc....
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+I did in my first draft, I used classes to provide global element changes, however I lost that version and will redo it shortly.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I had a really nice clean looking css sheet to submit but lost a lot of that content, I am submitting this now in order to move on, will come back and fix
