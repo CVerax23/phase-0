@@ -1,6 +1,8 @@
-html {
+ header {
   background-color: #ffffff;
   color: #000080;
+  text-align: center;
+  font-style: bold;
 }
 
 a:link {
@@ -13,13 +15,43 @@ a:visited {
 
 ul > li {
   font-size: 12px;
-  color: black
-  ;
+  color: black;
 }
 
-h1 {
-  font-style: bold;
-  font-size: 40px;
-  position: center;
+section {
+  text-align: center;
+  font-size: 85%;
 }
 
+section1 {
+  font-size: 85%;
+}
+
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+  Each page must include a reference to the external style sheet file inside the <link> element. The <link> element goes inside the <head> section. The file should not contain any html tags. The stylesheet must be saved with a .css extension.
+
+
+2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+Using percentages instead of px values
+Embracing html semantic elements over div's
+And it was a bit tiresome to tweak al the indiviual parameters to get the look right
+
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+text-align
+color
+font-size
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+I chose to use include classes due to it having the correct range of specificity requried to make what were largely global elements of the document,
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+Honestly, I feel I'm like I'm finally embracing the diffcult hurdle of using classeses instead of div's to alter the parameters of my code, and that seems to be a cleaner and far more efficent use of my resouces.
+*/
