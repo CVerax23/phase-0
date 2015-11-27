@@ -1,0 +1,25 @@
+html {
+  background-color: #ffffff;
+  color: #000080;
+}
+
+a:link {
+  color: #80080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+ul > li {
+  font-size: 12px;
+  color: black
+  ;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 40px;
+  position: center;
+}
+
