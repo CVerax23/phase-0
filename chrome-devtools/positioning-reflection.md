@@ -1,12 +1,11 @@
-[3.4-1](week-2/imgs/3.4-1)
-[3.4-2](week-2/imgs/3.4-2)
-[3.4-3](week-2/imgs/3.4-3)
-[3.4-4](week-2/imgs/3.4-4)
-[3.5-5](week-2/imgs/3.4-5)
-[3.5-6](week-2/imgs/3.4-6)
-[3.4-7](week-2/imgs/3.4-7)
-[3.4-8](week-2/imgs/3.4-8)
-
+Screen Shot 2015-11-28 at 3.19.12 PM.png
+Screen Shot 2015-11-28 at 3.22.25 PM.png
+Screen Shot 2015-11-28 at 3.25.53 PM.png
+Screen Shot 2015-11-28 at 3.35.15 PM.png
+Screen Shot 2015-11-28 at 3.40.21 PM.png
+Screen Shot 2015-11-28 at 3.55.22 PM.png
+Screen Shot 2015-11-28 at 3.57.47 PM.png
+Screen Shot 2015-11-28 at 4.08.45 PM.png
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
 
