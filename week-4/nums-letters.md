@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 What does puts do?
 
 "puts" returns nil and prints the output to the console with a new line
@@ -36,9 +36,10 @@ irb(main):007:0> p ((60*24) * 7) *520
 => 5241600
 
 
-
 ```
 =======
+
+
 4.2 - Numbers, Letters & Variable Assignments
 
 1. What does puts do?
@@ -54,7 +55,7 @@ Putting it simply once again, an integer in Ruby is a class that's a number with
 
 In Ruby the division operator depends on the class of the operands if both operands are integer than integer division (div) is performed with an integer result, if wither operands is a floating point, then floating-point division occurs (fdiv) and the result is expressed as a floating point class value.
 
->>>>>>> origin
+
 
 
 
@@ -62,8 +63,14 @@ In Ruby the division operator depends on the class of the operands if both opera
 
 LINKS TO CHALLANGE SOLUTIONS:
 
+
 https://github.com/CVerax23/phase-0/blob/master/week-4/simple-string.rb
+
+
 https://github.com/CVerax23/phase-0/blob/master/week-4/defining-variabes.rb
+
+
+
 https://github.com/CVerax23/phase-0/blob/master/week-4/basic-math.rb
 
 
