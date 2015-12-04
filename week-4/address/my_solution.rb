@@ -18,3 +18,4 @@ def make_address(street, city, state, zip_c)
 	puts "You live at #{street}, in the beautiful city of #{city}, #{state}. Your zip is #{zip_c}."
 end
 
+make_address
