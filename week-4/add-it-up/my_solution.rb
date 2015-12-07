@@ -1,12 +1,11 @@
-## Add it up!
+## Add 
 
 
 
 # Input: Array
 # Output: sum of elements of the array
-# Steps to solve the problem.
-# To solve, iterate through the array.  Add each element.
-# Return the sum
+# Iterate through the array.  Add element.
+# Return sum to user 
 
 
 # 1. total initial solution
@@ -15,11 +14,12 @@
     array_name.each do |x|
     sum += x
     end
-    sum
+    	sum
   end
 
-
 # 3. total refactored solution
+  
+
   def total array_name
   array_name.reduce(:+)
   end
@@ -30,9 +30,8 @@
 # Input: Array 
 # Output: a sentence 
 # Iterate
-#Capitalize first letter
-#add period at end of sentence
-#return outpus
+# Capitalize
+# return output to user
 
 
 # 5. sentence_maker initial solution
