@@ -1,5 +1,2 @@
-def factorial(n)
-  (1..n).inject {|product, n| product * n }
-end
-  
-puts factorial(5) # =&gt; 120
+total = 1
+12.downto(1) { |n| total *= n }

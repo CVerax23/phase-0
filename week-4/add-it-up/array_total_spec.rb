@@ -1,0 +1,1 @@
+puts my_array.inject(0){|sum,item| sum + item}
