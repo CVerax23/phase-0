@@ -1,7 +1,7 @@
 
 # Solution Below
-old_string = 'Ruby is cool'
-old_string.gsub('Ruby is cool', 'LOOC SI YBUR')
+old_string = "Ruby is cool"
+old_string.gsub("Ruby is cool", "LOOC SI YBUR")
 
 new_string = "LOOC SI YBUR"
 
