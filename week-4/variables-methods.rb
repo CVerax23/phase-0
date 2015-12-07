@@ -49,5 +49,5 @@ the links to copying files into our directory part lol.
 end
 
 
-#4.3.1 Return a Formatted Address:  https://github.com/CVerax23/phase-0/blob/3584f18c964d334bbcaea944f764e8fd6ca1a7d1/week-4/address/my_solution.rb
-
+#4.3.1 Address:  https://github.com/CVerax23/phase-0/blob/3584f18c964d334bbcaea944f764e8fd6ca1a7d1/week-4/address/my_solution.rb
+#4.3.2 - Math https://github.com/CVerax23/phase-0/blob/master/week-4/math/my_solution.rb
