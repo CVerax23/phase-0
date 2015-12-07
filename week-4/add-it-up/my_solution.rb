@@ -1,36 +1,51 @@
-# Add it up!
+## Add it up!
 
-# Complete each step below according to the challenge directions and
-# include it in this file. Also make sure everything that isn't code
-# is commented in the file.
 
-# I worked on this challenge [by myself, with: ].
 
-# 0. total Pseudocode
-# 
-# Input:
-# Output:
+# Input: Array
+# Output: sum of elements of the array
 # Steps to solve the problem.
+# To solve, iterate through the array.  Add each element.
+# Return the sum
 
 
 # 1. total initial solution
+  def total array_name
+    sum = 0
+    array_name.each do |x|
+    sum += x
+    end
+    sum
+  end
 
-sum = 0
-array.each { |a| sum+=a }
 
 # 3. total refactored solution
+  def total array_name
+  array_name.reduce(:+)
+  end
 
-puts my_array.inject(0){|sum,item| sum + item}
 
-# 4. sentence_maker pseudocode
-# make sure all pseudocode is commented out!
-# Input:
-# Output:
-# Steps to solve the problem.
+
+
+# Input: Array 
+# Output: a sentence 
+# Iterate
+#Capitalize first letter
+#add period at end of sentence
+#return outpus
 
 
 # 5. sentence_maker initial solution
-
+def sentence_maker array
+  array(0).capitalize!
+  concatinated = [array].join(" ")
+  output = concatinated.to_s
+  return output + "."
+end
 
 
 # 6. sentence_maker refactored solution
+
+def sentence_maker array
+  array.join(" ").capitalize << "."
+end
