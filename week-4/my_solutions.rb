@@ -1,0 +1,1 @@
+(1..n).inject {|product, n| product * n }

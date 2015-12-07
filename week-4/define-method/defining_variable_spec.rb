@@ -1,5 +1,6 @@
 require_relative "my_solution"
 
+
 describe 'do_something' do
   it 'is defined as a method' do
     expect(defined?(do_something)).to eq 'method'
