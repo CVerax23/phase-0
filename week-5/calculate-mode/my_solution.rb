@@ -42,4 +42,25 @@ def mode(array)
   mode_array.select { |k,v| v == mode_array.values.max }.keys
 end
 
+=begin
+
+REFLECTION:
+
+1. Which data structure did you and your pair decide to implement and why?
+
+We used a Hash due to it's felxibility in returning values to the array. 
+
+2. Were you more successful breaking this problem down into implementable pseudocode than the last with a pair? 
+
+Roughly the same.
+
+3. What issues/successes did you run into when translating your pseudocode to code?
+
+Not really.
+
+4. What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+each & push. Found select and inject, which were moderatley difficult to implement.
+
+end
 
