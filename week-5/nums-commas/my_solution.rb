@@ -16,6 +16,36 @@
 # 1. Initial Solution
 
 
+def separate_comma(number)
+
+  array = number.to_s.reverse.split(//)
+  len = array.length
+
+  if len<=6
+    n = 0
+  elsif len%2 == 0
+    n = 1
+  else 
+    n = 2
+  end
+
+
+
+  if len < 4
+    return array.join.reverse.to_s  
+  else
+    i  = 3
+    while i < len+n do
+      array.insert(i, ',')
+      i += 4
+    end
+  end
+
+  return  array.join.reverse.to_s
+
+end
+
+
 
 
 # 2. Refactored Solution
