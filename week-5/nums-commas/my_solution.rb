@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent [] hours on this challenge.
+# I spent [3] hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -8,9 +8,14 @@
 
 # 0. Pseudocode
 
-# What is the input?
-# What is the output? (i.e. What should the code return?)
-# What are the steps needed to solve the problem?
+# 1. What is the input?
+#  		Any positive integer.
+# 
+#2. What is the output? (i.e. What should the code return?)
+#   	A comma-separated integer as a string
+
+#3. What are the steps needed to solve the problem?
+#   	1. 
 
 
 # 1. Initial Solution
@@ -50,7 +55,21 @@ end
 
 # 2. Refactored Solution
 
-
+def separate_comma(number)
+  number.to_s.chars.to_a.reverse.each_slice(3).map(&:join).join(",").reverse
+end
 
 
 # 3. Reflection
+
+#What was your process for breaking the problem down? What different approaches did you consider?
+# My process was to: identify my inputs
+# 					 ascertin what type of flow control structure was needed
+#   				 identify what data was going to be modified or accessed
+# 					 identify what output needed to be returned 
+
+#Was your pseudocode effective in helping you build a successful initial solution?
+# It was for the first solution, not the refactoreed one
+#What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+#How did you initially iterate through the data structure?
+#Do you feel your refactored solution is more readable than your initial solution? Why?
