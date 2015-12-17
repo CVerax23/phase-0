@@ -32,9 +32,3 @@ class Die
     @sides = sides
   end
 
-  def roll
-    rando = Random.new
-    1 + rando.rand(@sides)
-  end
-end
-
