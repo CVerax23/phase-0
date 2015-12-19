@@ -37,7 +37,6 @@ def check_card(cardNumber)
   end
   puts (10 - sum%10).to_i == checkdigit.to_i
 end
-end
 
 
 =begin
