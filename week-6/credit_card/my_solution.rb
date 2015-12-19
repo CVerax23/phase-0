@@ -16,6 +16,9 @@
 # Don't forget to check on initialization for a card length
 # of exactly 16 digits
 
+class CreditCard
+  end
+
 def check_card(cardNumber)
   nums = cardNumber.to_s.split("")
   checkdigit = nums[nums.length - 1]
