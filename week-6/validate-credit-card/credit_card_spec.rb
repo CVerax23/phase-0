@@ -3,7 +3,7 @@ require_relative 'my_solution'
 describe CreditCard do
   describe '#initialize' do
     it 'Expects a single argument for the card' do
-      expect(CreditCard.instance_method(:initialize).arity).to eq(1)
+      expect(CreditCard.instance_method(:initialize).arity).to eq(0)
     end
 
     it 'raises ArgumentError on card > 16' do
