@@ -17,7 +17,9 @@
 # of exactly 16 digits
 
 class CreditCard
+  def initalize nums
   end
+
 
 def check_card(cardNumber)
   nums = cardNumber.to_s.split("")
@@ -35,9 +37,7 @@ def check_card(cardNumber)
   end
   puts (10 - sum%10).to_i == checkdigit.to_i
 end
-
-
-
+end
 
 
 =begin
@@ -45,29 +45,27 @@ end
 rescue
  => e
 
-end
 
 # Refactored Solution
 
-class CreditCard
+#class CreditCard
       def initialize num
         @number = num
       end
 
 
-def valid?
+#def valid?
         digits = ""
         # double every other number starting with the next to last
         # and working backwards
         @number.split('').reverse.each_with_index do |d,i|
           digits += d if i%2 == 0
           digits += (d.to_i*2).to_s if i%2 == 1
+#end
+#end
+#end
+
+
+
+
 end
-end
-end
-
-=end
-
-
-
-# Reflection
