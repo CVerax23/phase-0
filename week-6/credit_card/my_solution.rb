@@ -36,6 +36,7 @@ def check_card(cardNumber)
   puts (10 - sum%10).to_i == checkdigit.to_i
 end
 
+check_card(4563 9601 2200 1999)
 
 
 
