@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge [by myself, with: Susan S].
+# I spent [1.5] hours on this challenge.
 
 # Pseudocode
 
@@ -36,14 +36,33 @@ end
 
 
 
+=begin
 
+rescue
+ => e
+
+end
 
 # Refactored Solution
 
+class CreditCard
+      def initialize num
+        @number = num
+      end
 
 
+def valid?
+        digits = ""
+        # double every other number starting with the next to last
+        # and working backwards
+        @number.split('').reverse.each_with_index do |d,i|
+          digits += d if i%2 == 0
+          digits += (d.to_i*2).to_s if i%2 == 1
+end
+end
+end
 
-
+=end
 
 
 
