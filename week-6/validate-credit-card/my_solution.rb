@@ -17,12 +17,13 @@
 # of exactly 16 digits
 
 class CreditCard
-
+  def initialize
   end
 
 
-def check_card(cardNumber)
-  nums = cardNumber.to_s.split("")
+
+def check_card(card)
+  nums = card.to_s.split("")
   checkdigit = nums[nums.length - 1]
   nums[nums.length - 1] = 0
   nums.reverse!
@@ -37,6 +38,9 @@ def check_card(cardNumber)
   end
   puts (10 - sum%10).to_i == checkdigit.to_i
 end
+end
+
+
 
 
 =begin
