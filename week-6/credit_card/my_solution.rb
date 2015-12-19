@@ -17,7 +17,7 @@
 # of exactly 16 digits
 
 class CreditCard
-  def initalize nums
+
   end
 
 
@@ -65,7 +65,7 @@ rescue
 #end
 #end
 
+=end
 
 
 
-end
