@@ -18,10 +18,9 @@
 
 class CreditCard
 
-  end
 
 def check_card?(card)
-  nums = card.to_s.split("")
+  nums = card.to_s.split('')
   checkdigit = nums[nums.length - 1]
   nums[nums.length - 1] = 0
   nums.reverse!
@@ -35,8 +34,11 @@ def check_card?(card)
     sum = sum + nums[i].to_i
   end
   puts (10 - sum%10).to_i == checkdigit.to_i
+  puts nums?
+end
 end
 
+CreditCard
 
 
 
@@ -47,7 +49,7 @@ end
 #class CreditCard
     #def initialize num
      #   @number = num
-      3end
+      end
 
 
 #def valid?
