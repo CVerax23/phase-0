@@ -13,26 +13,45 @@
 
 # Initial Solution
 
-class Die
-  def initialize(labels)
+
+ class Die
+   def initialize(labels)
+    unless labels.length > 0
+      raise ArgumentError.new("Can't be an empty array")
+   end
+    @sides = labels
   end
 
-  def sides
+ def sides   
+   @sides.length
   end
 
-  def roll
+ def roll
+    rand_index = rand(sides)
+    @sides[rand_index]
   end
 end
-
 
 
 # Refactored Solution
 
 
+class Die
+  def initialize(labels)
+    if labels.empty?
+      raise ArgumentError.new("Can't be empty")
+    end
+    @sides = labels
+  end
 
+  def sides
+    @sides.length
+  end
 
-
-
+  def roll
+    @sides.sample
+  end
+end
 
 
 # Reflection
