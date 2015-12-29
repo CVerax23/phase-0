@@ -46,11 +46,6 @@ CreditCard
 
 # Refactored Solution
 
-#class CreditCard
-    #def initialize num
-     #   @number = num
-      end
-
 
 #def valid?
         #digits = ""
