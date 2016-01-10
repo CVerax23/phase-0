@@ -1,6 +1,6 @@
 
 =begin 
-REFLECTION: 
+REFLECTION: Raj V.
 
 1. What are databases for?
 	Databases serve a special mission - to provide a well-organized mechanism for data manipulationby offering a quick and automated way for the information to be stored, managed, deleted or retrieved
@@ -14,3 +14,5 @@ REFLECTION:
 
 4. How can you select information out of a SQL database? What are some general guidelines for that?
 	Using the SELECT statement, the result is stored in a result table.
+
+	https://github.com/CVerax23/phase-0/blob/master/week-8/database-intro/CherOutfits.png
