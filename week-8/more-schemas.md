@@ -1,5 +1,6 @@
 =begin 
 
+
 REFLECTIONS: Raj V
 
 1. What is a one-to-one database?
@@ -16,5 +17,8 @@ REFLECTIONS: Raj V
 
 5. What is confusing about database schemas? What makes sense?
 	Nothing really, they are pretty straight forward.
+
+
+https://github.com/CVerax23/phase-0/blob/master/week-8/imgs/8.5Schema.png
 
 =end
