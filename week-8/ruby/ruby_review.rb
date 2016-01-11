@@ -1,41 +1,53 @@
 # I worked on this challenge [by myself, with: ].
-# This challenge took me [3] hours.
+# This challenge took me [5] hours.
 
 # Pseudocode
-# Create fibonacci method that receive an integer and returns a boolean value
-# Use times to interate over each position to current position
-
+# Input: x
+# If x = 1 we want to output 1
+# If x = 2 we want to output 2
+# If n > 2 we want to output sum of 2 previous values
+# Output n
 
 
 # Initial Solution
 
 def is_fibonacci?(num)
-	return num if (0..1).include? num
- 	a = [0]
-
-  num.times do |i|
-    if i==0
-      a[i] = 0
-    elsif i==1
-      a[i] = 1
-    else
-      a[i] = a[i-1] + a[i-2]
-    end  
+  x = 1
+  arr = [0]
+  while x <= num
+    arr << x
+    arr2 = arr.last(2)
+    x = arr2[0] + arr2[1]
+    if x == num
+      return true
+    end
   end
-puts is_fibonacci?()
-
-
-
+  return false
+end
 
 
 
 # Refactored Solution
-
-
-
-
-
-
-
-# Reflection
+def is_fibonacci?(num)
+  x = 1
+  arr = [0]
+  while x <= num
+    arr << x
+    x = arr[-1] + arr[-2]
+    if x == num
+      return true
+    end
+  end
+  return false
 end
+
+
+
+#      REFLECTION:
+#
+#   1- What concepts did you review or learn in this challenge?
+#       This challange was all about iteration, and really touched upon the fascinating world of algorithims and deeper mathematics. Realy enjoyed this challange.
+#   2- What is still confusing to you about Ruby?
+#       Everything dude.
+#   3- What are you going to study to get more prepared for Phase 1?
+#       Basically go through all the online code acade,y type courses again, really try to improve my core understanding
