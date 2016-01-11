@@ -1,4 +1,3 @@
-
 /*
 Gradebook from Names and Scores
 I worked on this challenge [by myself, with:]
@@ -16,41 +15,33 @@ var scores = [ [80, 70, 70, 100],
                [75, 70, 80, 75],
                [100, 90, 95, 85] ]
 
+var gradebook = {
+  
+}
 
+for(var count = 0; count < students.length; count++){
+  gradebook[students[count]] = { testScore : scores[count] }
+  }
 
+gradebook["addScore"] = function(name,score){
+  gradebook[name].testScore.push(score);
+}
 
+gradebook["getAverage"] = function(name){
+  return console.log(average(gradebook[name].testScore));  
+}
 
+var average = function(integerArray){
+  var sum = 0;
+  for(var index = 0; index < integerArray.length; index++){
+    sum = integerArray[index] + sum;
+  }
+  var ave = sum/integerArray.length;
+  return ave;
+}
 
-// __________________________________________
-// Write your code below.
-
-
-
-
-
-
-
-
-// __________________________________________
-// Refactored Solution
-
-
-
-
-
-
-
-
-// __________________________________________
-// Reflect
-
-
-
-
-
-
-
-
+gradebook.getAverage("Joseph")
+gradebook
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
